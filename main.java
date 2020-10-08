@@ -40,27 +40,27 @@ class procesos {    //clase procesos empieza
         fil.estado='P';//cuando termina estará pensando y aún en la mesa, por lo que se le pedirá que se levante y se vaya a pensar
     }
     
-    public void pensar(filosofo fil){ //esta función hace que el 
-        int pensar=0;
-        while(pensar ==2){
+    public void pensar(filosofo fil){ //esta función hace que el filósofo piense
+        int pensar=0; //se pone pensar en 0
+        while(pensar ==2){ //se hará un ciclo aleatorio
             pensar = (int)(Math.random()*20+1);
         }
         fil.estado='H';
     }
     
-    public void tomar_palillos(filosofo fil){
+    public void tomar_palillos(filosofo fil){//aquí checa el portero cuántas personas están ocupando palillos, si hay 4, se pondrá en espera
         if(num_comiendo()==4){
             fil.espera=fil.espera+1;
             fil.mesa=false;
             fil.estado='H';
-        }else{
+        }else{//en otro caso, se le sentará y comerá
             fil.palillos=true;
             fil.espera=0;
             fil.estado='C';
         }
     }
     
-    public void portero(){
+    public void portero(){//el portero checa el estado de los filósofos cada ciclo, y dependiendo de su estado actuará
         
         filosofo aux = inicio;        
         System.out.println("\n");   
