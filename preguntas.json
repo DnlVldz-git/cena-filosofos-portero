@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "instruccion": "Pregunta si le gusta la salsa",
+    "enunciado": "¿Te gusta la salsa?",
+    "respuestas": [
+      {
+        "indice": 2,
+        "respuesta": "Sí"
+      },
+      {
+        "indice": 3,
+        "respuesta": "No"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "instruccion": "Pregunta qué tipo de salsa le gusta",
+    "enunciado": "¿Qué tipo de salsa te gusta?",
+    "respuestas": [
+      {
+        "indice": 4,
+        "respuesta": "Verde"
+      },
+      {
+        "indice": 5,
+        "respuesta": "Roja"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "instruccion": "Pregunta si es joto",
+    "enunciado": "¿Eres joto?",
+    "respuestas": [
+      {
+        "indice": 6,
+        "respuesta": "Tengo gastrítis"
+      },
+      {
+        "indice": 7,
+        "respuesta": "Soy intolerante"
+      },
+      {
+        "indice": 8,
+        "respuesta": "No me gusta"
+      },
+      {
+        "indice": 9,
+        "respuesta": "Sí soy"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "instruccion": "Pregunte con qué la acompaña\t",
+    "enunciado": "¿Con que acompaña su salsa verde?",
+    "respuestas": [
+      {
+        "indice": 10,
+        "respuesta": "Tacos"
+      },
+      {
+        "indice": 11,
+        "respuesta": "Chicharrón"
+      },
+      {
+        "indice": 12,
+        "respuesta": "Carne"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "instruccion": "Pregunta con qué la acompaña",
+    "enunciado": "¿Con que acompaña su salsa roja?",
+    "respuestas": [
+      {
+        "indice": 13,
+        "respuesta": "Tacos"
+      },
+      {
+        "indice": 14,
+        "respuesta": "Torta ahogada"
+      },
+      {
+        "indice": 15,
+        "respuesta": "Papas"
+      }
+    ]
+  }
+]
